@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .home-button,
+  .login-button,
+  .signup-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  .home-button:hover,
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #555;
+  }
+  
+
+
+  .hero {
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+
+  /*LOGINS*/
+  .connectbody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .connectcontainer {
+    width: 50%;
+  }
+  
+  .login-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+
+  /* TRANSACTION */
+  
+  .transnavbar {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button, .home-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  .transactions {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+/* Details*/
+  
+  .back-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  .transaction-details {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+
+  
+
+/* CREATE */
+
+  .transaction-form {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+
+
+/*  DELETE */
+
+  .delete-transaction {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .deletebutton {
+    background-color: #f00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .deletebutton:hover {
+    background-color: #d00;
+  }
+
+
+
+/* UPDATE */
+.confirmation-message {
+    padding: 20px;
+    text-align: center;
+ }
+
+
+/* LOGOUT */
+.logout-message {
+    padding: 20px;
+    text-align: center;
+}
+
+.logouta {
+    text-decoration: none;
+    color: #007BFF;
+}
+  
+.logouta:hover {
+    text-decoration: underline;
+  }
